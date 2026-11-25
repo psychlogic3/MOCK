@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#14284A">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="generator" content="PsychLogic">
+<title>Free IHBAS M.Clin.Psy Mock Tests · PsychLogic</title>
+<meta name="description" content="Three free full-length IHBAS-pattern mock tests for the IHBAS Master in Clinical Psychology (RCI) entrance, with instant analysis and explanations. By PsychLogic.">
+<meta property="og:title" content="Free IHBAS M.Clin.Psy Full-Length Mock Tests · PsychLogic">
+<meta property="og:description" content="100 questions · 90 minutes · exact IHBAS section split · instant analysis. Free for every IHBAS aspirant.">
+<meta property="og:image" content="assets/logo-full.png">
+<link rel="icon" type="image/png" href="assets/logo-mark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= 1. EXAM BRIEF ================= -->
+<section id="scrHome" class="screen home">
+  <header class="topbar">
+    <div class="brand"><img src="assets/logo-mark.png" alt="" draggable="false"><span>Psych<b>Logic</b></span></div>
+    <span class="pill pill-free">Free for all IHBAS aspirants</span>
+  </header>
+
+  <div class="hero">
+    <div class="hero-in">
+      <p class="eyebrow">IHBAS, Delhi · Master in Clinical Psychology (RCI) · 2026–28</p>
+      <h1>Three free full-length mocks,<br><em>built on the real IHBAS paper.</em></h1>
+      <p class="lede">100 questions · 90 minutes · the exact official section split · no negative marking — then a detailed, GATE-style analysis of where your marks went, with an easy explanation for every question.</p>
+      <div class="hero-cta"><a class="btn btn-lg btn-hero" href="#startForm" id="heroGo">Start a free mock →</a><a class="btn btn-lg btn-hero-2" href="#splitBars">See the exam pattern</a></div>
+      <div class="count-card" id="examCount">
+        <div class="cc-label"><span class="live-dot"></span>Entrance exam</div>
+        <div class="cc-date" id="examDate"></div>
+        <div class="cc-grid" id="examCountGrid"></div>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true"><img src="assets/logo-full.png" alt="" draggable="false"></div>
+  </div>
+
+  <main class="home-main">
+    <h2 class="sec-title"><span>01</span>The exam at a glance</h2>
+    <div class="facts">
+      <div class="fact"><b>100</b><span>multiple-choice questions, 4 options each</span></div>
+      <div class="fact"><b>90<small> min</small></b><span>about 54 seconds per question</span></div>
+      <div class="fact"><b>+1 / 0</b><span>no negative marking — attempt every question</span></div>
+      <div class="fact"><b>28</b><span>seats this year (2026–28)</span></div>
+    </div>
+    <div class="card info-list">
+      <div><i class="ico">🏛</i><p><b>Conducted by IHBAS, Delhi.</b> The programme is academically affiliated to the University of Delhi and approved by the Rehabilitation Council of India (RCI). It is a 2-year, full-time, hospital-based course with a stipend.</p></div>
+      <div><i class="ico">🗓</i><p><b>Exam date:</b> <span id="examDate2"></span>. Applications closed on 21 November 2026. Watch the IHBAS website for the admit card, reporting time and venue.</p></div>
+      <div><i class="ico">🎯</i><p><b>Selection is on the written test.</b> In recent years IHBAS has said there will be no interview: merit in the written test decides who is called for counselling and document verification.</p></div>
+      <div><i class="ico">📖</i><p><b>Syllabus:</b> postgraduate (MA/M.Sc.) level psychology, as per the IHBAS prospectus.</p></div>
+    </div>
+
+    <h2 class="sec-title"><span>02</span>Official section-wise paper</h2>
+    <div class="card">
+      <p class="muted small">From the IHBAS prospectus. Every PsychLogic mock follows this split exactly; questions are mixed, not grouped by section, as in the real paper.</p>
+      <div class="split" id="splitBars"></div>
+    </div>
+
+    <h2 class="sec-title"><span>03</span>Level of competition</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h3>Seats for 2026–28</h3>
+        <p class="muted small">28 seats in all, across categories, as announced for the 2026–28 session.</p>
+        <div class="seats" id="seatChips"></div>
+      </div>
+      <div class="card">
+        <h3>What toppers score</h3>
+        <p class="small">In recent IHBAS merit lists, the top scores have been in the <b>mid-to-high 80s out of 100</b>. With only 28 seats and no negative marking, every single mark counts.</p>
+        <div class="bands" id="bandsMini"></div>
+        <p class="muted tiny">PsychLogic’s practice bands, based on recent toppers’ scores. They are a guide for practice, not an official cut-off.</p>
+      </div>
+    </div>
+
+    <h2 class="sec-title"><span>04</span>How the IHBAS paper feels</h2>
+    <div class="card feel">
+      <div><b>Mostly direct one-liners.</b><span>Who developed which test or therapy, definitions, criteria and durations, brain structures, statistics basics.</span></div>
+      <div><b>Easy-to-moderate overall</b><span>— but with a handful of “outlier” questions on old psychiatric terms, rare syndromes and lesser-known concepts.</span></div>
+      <div><b>A few recurring Indian topics.</b><span>Indian tests (ISAA, VSMS, MISIC), MHCA 2017, RCI and RPwD — usually one or two simple questions.</span></div>
+      <div><b>Very little Match, Assertion–Reason or long cases.</b><span>So speed and accurate recall matter more than long reasoning.</span></div>
+    </div>
+
+    <h2 class="sec-title"><span>05</span>Your 90-minute game plan</h2>
+    <ol class="plan">
+      <li><b>First pass, 55 minutes:</b> answer everything you know at once; mark anything doubtful for review.</li>
+      <li><b>Second pass, 25 minutes:</b> return to marked questions and eliminate options.</li>
+      <li><b>Last 10 minutes:</b> fill every blank. There is no negative marking, so a guess can only help.</li>
+    </ol>
+
+    <form id="startForm" class="card start-card" novalidate autocomplete="off">
+      <h3>Ready? Enter your name to begin</h3>
+      <p class="muted small">Your name appears only on your own score report. Tests are free — no sign-up, no access code. Your attempts are saved on this device.</p>
+      <div class="start-row">
+        <input id="inName" type="text" placeholder="Your full name" maxlength="60" aria-label="Your full name">
+        <button class="btn btn-primary btn-lg" type="submit">See the mock tests →</button>
+      </div>
+      <p class="form-error" id="nameErr" hidden></p>
+    </form>
+  </main>
+  <footer class="site-foot">© PsychLogic · Where Psychology Meets Strategy · <a id="lnkSite" target="_blank" rel="noopener">psychlogic.in</a></footer>
+</section>
+
+<!-- ================= 2. CHOOSE TEST ================= -->
+<section id="scrHub" class="screen" hidden>
+  <header class="topbar">
+    <button class="brand brand-btn" id="btnHome" type="button" title="Exam brief"><img src="assets/logo-mark.png" alt="" draggable="false"><span>Psych<b>Logic</b></span></button>
+    <div class="who"><span class="avatar" id="hubAvatar">A</span><span id="hubName" class="who-name"></span><button class="link-btn" id="btnChangeName" type="button">Change</button></div>
+  </header>
+  <main class="hub-main">
+    <div class="hub-head">
+      <div>
+        <p class="eyebrow dark">IHBAS M.Clin.Psy (RCI) 2026–28</p>
+        <h1>Choose your mock test</h1>
+        <p class="muted">All three papers are open any time. Attempt each one as many times as you like — every attempt gets a fresh analysis.</p>
+      </div>
+      
+    </div>
+    <ol class="tests" id="testList"></ol>
+    <div class="card community">
+      <div><h3>Preparing for clinical psychology entrances?</h3><p class="muted small">Join the PsychLogic community for free notes, cheat sheets and updates on NIMHANS, IHBAS, CIP and other RCI entrances.</p></div>
+      <a class="btn btn-wa" id="lnkWa1" target="_blank" rel="noopener">Join on WhatsApp</a>
+    </div>
+  </main>
+</section>
+
+<!-- ================= 3. ABOUT THIS TEST ================= -->
+<section id="scrInstr" class="screen" hidden>
+  <header class="topbar">
+    <div class="brand"><img src="assets/logo-mark.png" alt="" draggable="false"><span id="instrTop">Mock</span></div>
+    <div class="who"><span class="avatar" id="instrAvatar">A</span></div>
+  </header>
+  <main class="instr-main">
+    <p class="eyebrow dark" id="instrTag"></p>
+    <h1 id="instrTitle">Full-Length Mock</h1>
+    <p class="lead2" id="instrCovers"></p>
+    <div class="facts small-facts">
+      <div class="fact"><b>100</b><span>questions</span></div>
+      <div class="fact"><b>90<small> min</small></b><span>timer, auto-submit</span></div>
+      <div class="fact"><b>+1</b><span>per correct answer</span></div>
+      <div class="fact"><b>0</b><span>negative marking</span></div>
+    </div>
+
+    <div class="card">
+      <h3>What is inside this paper</h3>
+      <div class="split compact" id="instrSplit"></div>
+      <p class="muted tiny" id="instrMix"></p>
+    </div>
+
+    <div class="card">
+      <h3>How the test screen works</h3>
+      <ol class="rules">
+        <li>The timer starts when you press <b>Start the test</b> and cannot be paused. At zero, the test is submitted automatically.</li>
+        <li>Tap an option, then <b>Save &amp; Next</b>. <b>Mark for Review</b> flags a question to revisit; a marked question that has an answer <b>is still scored</b>.</li>
+        <li>Open the <b>question palette</b> to jump to any question:
+          <div class="legend-demo">
+            <span><i class="pal st-nv">1</i>Not visited</span><span><i class="pal st-na">2</i>Not answered</span><span><i class="pal st-a">3</i>Answered</span><span><i class="pal st-m">4</i>Marked, no answer</span><span><i class="pal st-am">5</i>Answered &amp; marked</span>
+          </div></li>
+        <li>If you close the page, your test is saved on this device and you can resume, but the clock keeps running.</li>
+        <li>Copying and screenshots of questions are not allowed. The questions belong to PsychLogic.</li>
+      </ol>
+    </div>
+    <div class="instr-nav">
+      <button class="btn btn-ghost" type="button" id="btnBackHub">← All tests</button>
+      <button class="btn btn-primary btn-lg" type="button" id="btnBegin">Start the test</button>
+    </div>
+  </main>
+</section>
+
+<!-- ================= 4. EXAM ================= -->
+<section id="scrExam" class="screen exam" hidden>
+  <header class="ex-top">
+    <div class="ex-title"><img src="assets/logo-mark.png" alt="" draggable="false"><div><b id="examTitle">Mock</b><span>IHBAS M.Clin.Psy · Psychology</span></div></div>
+    <div class="timer" id="timer"><span>Time left</span><b id="timerVal">01:30:00</b></div>
+  </header>
+  <div class="ex-progress"><i id="exProg"></i></div>
+  <div class="ex-body">
+    <main class="q-pane">
+      <div class="q-meta">
+        <b>Question <span id="qNo">1</span><small> / 100</small></b>
+        <span class="q-mk">+1 · no negative</span>
+        <button class="btn btn-sm pal-btn" id="btnPal" type="button"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M4 4h4v4H4zm6 0h4v4h-4zm6 0h4v4h-4zM4 10h4v4H4zm6 0h4v4h-4zm6 0h4v4h-4zM4 16h4v4H4zm6 0h4v4h-4zm6 0h4v4h-4z"/></svg>Palette</button>
+      </div>
+      <div class="q-scroll" id="qScroll">
+        <div class="q-text" id="qText"></div>
+        <div class="q-opts" id="qOpts"></div>
+      </div>
+      <footer class="q-actions">
+        <button class="btn btn-ghost" type="button" id="btnPrev" aria-label="Previous question">‹ Back</button>
+        <button class="btn btn-ghost" type="button" id="btnClear">Clear</button>
+        <button class="btn btn-mark" type="button" id="btnMark">Mark &amp; Next</button>
+        <button class="btn btn-save" type="button" id="btnSave">Save &amp; Next</button>
+      </footer>
+    </main>
+    <aside class="side" id="side">
+      <div class="side-head"><div class="who"><span class="avatar" id="examAvatar">A</span><b id="examName"></b></div><button class="x side-close" id="sideClose" type="button" aria-label="Close palette">✕</button></div>
+      <div class="side-legend" id="sideLegend"></div>
+      <div class="palette" id="palette"></div>
+      <button class="btn btn-submit btn-block" type="button" id="btnSubmit">Submit test</button>
+    </aside>
+    <div class="scrim" id="scrim"></div>
+  </div>
+</section>
+
+<!-- ================= 5. RESULT ================= -->
+<section id="scrResult" class="screen" hidden>
+  <header class="topbar">
+    <div class="brand"><img src="assets/logo-mark.png" alt="" draggable="false"><span>Psych<b>Logic</b><span class="opt-lbl"> · Score report</span></span></div>
+    <div class="who"><button class="btn btn-ghost btn-sm" id="btnRetake" type="button">Re-attempt</button><button class="btn btn-primary btn-sm" id="btnResHub" type="button">All tests</button></div>
+  </header>
+  <main class="res-main">
+    <div class="res-hero" id="resHero"></div>
+    <div class="res-tabs" role="tablist">
+      <button class="rtab active" data-r="analysis" type="button">Analysis</button>
+      <button class="rtab" data-r="answers" type="button">Solutions</button>
+      <button class="rtab" data-r="history" type="button">Attempts</button>
+    </div>
+    <div class="res-panel" id="rAnalysis"></div>
+    <div class="res-panel" id="rAnswers" hidden></div>
+    <div class="res-panel" id="rHistory" hidden></div>
+  </main>
+</section>
+
+<!-- ================= MODALS ================= -->
+<div class="modal" id="mSubmit" hidden>
+  <div class="modal-card">
+    <h3>Submit the test?</h3>
+    <p class="muted small">After you submit, you cannot change answers in this attempt. There is no negative marking, so consider answering any blanks first.</p>
+    <div class="sum" id="sumBox"></div>
+    <div class="modal-actions"><button class="btn btn-ghost" type="button" id="btnSubNo">Go back</button><button class="btn btn-submit" type="button" id="btnSubYes">Yes, submit</button></div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status"></div>
+<div class="wm" id="wm" aria-hidden="true"></div>
+<div class="dt-wall" role="alert"><div><img src="assets/logo-mark.png" alt="" draggable="false"><h2>Please close developer tools</h2><p>For the security of PsychLogic’s questions, the test is hidden while developer tools are open. Close them to continue — your progress is safe.</p></div></div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
